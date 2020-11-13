@@ -1,0 +1,18 @@
+.CardPile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border: 2px solid black;
+    height: 95vh;
+    background-image: linear-gradient(to bottom, #1A4A1C, #308834 600px)
+}
+
+.CardPile-button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
